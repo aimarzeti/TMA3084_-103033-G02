@@ -5,9 +5,9 @@ void main() {
   print('     WELCOME TO PIZZA ORDER SYSTEM      ');
   print('========================================');
   print('Menu & Prices:');
-  print('1. Small  (S) - \$5 USD');
-  print('2. Medium (M) - \$7 USD');
-  print('3. Large  (L) - \$10 USD');
+  print('1. Small  (S) - RM 5');
+  print('2. Medium (M) - RM 7');
+  print('3. Large  (L) - RM 10');
   print('========================================\n');
 
   bool keepOrdering = true;
@@ -72,7 +72,7 @@ void main() {
     print('----------------------------------------');
     print('ORDER SUMMARY:');
     print('Size: $sizeInput | Quantity: $quantity');
-    print('Total Amount Due: \$$totalCost USD');
+    print('Total Amount Due: RM $totalCost');
     print('----------------------------------------\n');
 
     // Ask to continue
